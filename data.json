@@ -1,0 +1,28 @@
+{
+    "001": {
+        "name": "Арабика",
+        "cost": "10",
+        "descr": "Араматное кофе",
+        "image": "src/img/img_coffe_1.jpg"
+    },
+
+    "002": {
+        "name": "Робуста",
+        "cost": "11",
+        "descr": "Араматное кофе",
+        "image": "src/img/img_coffe_2.jpg"
+    },
+    "003": {
+        "name": "Либерика",
+        "cost": "12",
+        "descr": "Араматное кофе",
+        "image": "src/img/img_coffe_3.jpg"
+    },
+    "004": {
+        "name": "Эксцельса",
+        "cost": "12",
+        "descr": "Араматное кофе",
+        "image": "src/img/img_coffe_4.jpg"
+    }
+
+}

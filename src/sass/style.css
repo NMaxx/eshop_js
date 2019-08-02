@@ -1,0 +1,42 @@
+#goods {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+}
+
+.single-good {
+  border: 1px solid black;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.single-good .img-good {
+  width: 100%;
+  background-size: cover;
+}
+
+.single-good .cost {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-good {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 600px;
+  padding-bottom: 10px;
+}
+
+.cart-good button {
+  width: 40px;
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
